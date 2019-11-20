@@ -26,10 +26,10 @@ public class SRTabBar: NSVisualEffectView {
     }
     
     /// The colour used for active items
-    public var tintColor = NSColor.yellow
+    public var tintColor = NSColor.tertiaryLabelColor
     
     /// The colour used for inactive items
-    public var textColor = NSColor.white
+    public var textColor = NSColor.secondaryLabelColor
     
     /// Spacing between the items
     public var itemSpacing: CGFloat = 25 {
