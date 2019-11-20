@@ -45,14 +45,14 @@ open class SRTabBarController: NSViewController, NSTabViewDelegate, SRTabItemDel
     }
     
     /// The text color of the tab bar 
-    @IBInspectable open var barTextColor: NSColor = .white {
+    @IBInspectable open var barTextColor: NSColor = .tertiaryLabelColor {
         didSet {
             tabBar.textColor = barTextColor
         }
     }
     
     /// The tint color of the tab bar
-    @IBInspectable open var barTintColor: NSColor = .yellow {
+    @IBInspectable open var barTintColor: NSColor = .secondaryLabelColor {
         didSet {
             tabBar.tintColor = barTintColor
         }
