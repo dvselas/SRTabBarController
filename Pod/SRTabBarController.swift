@@ -10,6 +10,8 @@ import Cocoa
 
 open class SRTabBarController: NSViewController, NSTabViewDelegate, SRTabItemDelegate {
     
+    let imageResizer = ImageResizer()
+    
     /// The tab bar
     open var tabBar: SRTabBar {
         
