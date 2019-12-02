@@ -39,6 +39,18 @@ open class SRTabBarController: NSViewController, NSTabViewDelegate, SRTabItemDel
         }
     }
     
+    @IBInspectable open var imageWidth: CGFloat = 75 {
+        didSet {
+            
+        }
+    }
+    
+    @IBInspectable open var imageHeight: CGFloat = 75 {
+        didSet {
+            
+        }
+    }
+    
     /// The background color of the tab bar
     @IBInspectable open var barBackgroundColor: NSColor = .black {
         didSet {
