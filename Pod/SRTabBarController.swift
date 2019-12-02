@@ -155,7 +155,7 @@ open class SRTabBarController: NSViewController, NSTabViewDelegate, SRTabItemDel
             return
         }
         
-        let pieces = id.split(separator: "_")
+        let pieces = id.split(separator: ":")
         
         
         
