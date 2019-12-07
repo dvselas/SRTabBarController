@@ -179,7 +179,7 @@ open class SRTabBarController: NSViewController, NSTabViewDelegate, SRTabItemDel
         let item = SRTabItem(index: index, viewController: vc)
         if pieces.count > 2 {
             let image = NSImage(named: String(pieces[2]))
-            let size = NSSize(width: 75.0, height: 75.0)
+            let size = NSSize(width: self.imageWidth, height: self.imageHeight)
             let resizedImage = imageResizer.resizeImage(image: image!, maxSize: size)
             item.image = resizedImage
         }
