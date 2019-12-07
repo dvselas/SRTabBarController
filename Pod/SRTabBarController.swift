@@ -39,13 +39,13 @@ open class SRTabBarController: NSViewController, NSTabViewDelegate, SRTabItemDel
         }
     }
     
-    @IBInspectable open var imageWidth: CGFloat = 75 {
+    @IBInspectable open var imageWidth: CGFloat = 50 {
         didSet {
             
         }
     }
     
-    @IBInspectable open var imageHeight: CGFloat = 75 {
+    @IBInspectable open var imageHeight: CGFloat = 50 {
         didSet {
             
         }
